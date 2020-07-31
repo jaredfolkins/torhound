@@ -1,6 +1,6 @@
 # TorHound 
 
-TorHound scrapes the exit relay data from tor.org, caches it, and utilizes the data to create configuration files for blacklisting.
+TorHound scrapes the exit relay data from tor.org, caches it, and utilizes the data to create configuration files for blocklists.
 
 An integer is passed to set the date range.
 

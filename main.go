@@ -431,7 +431,7 @@ func IndexHandler(w http.ResponseWriter, r *http.Request) {
 	</head>
 	<body>
 		<h1>TorHound</h1>
-		<p>TorHound scrapes the exit relay data from tor.org, caches it, and utilizes the data to create configuration files for blacklisting.</p>
+		<p>TorHound scrapes the exit relay data from tor.org, caches it, and utilizes the data to create configuration files for blocklists.</p>
 		<p>Note, during scraping, TorHound validates and normalizes the data to prevent errors, bugs, or exploits from being passed downstream</p>
 		<p>An integer is passed to set the date range.</p>
 		<p>Example: https://www.torhound.com/compat/minutes/1440</p>
